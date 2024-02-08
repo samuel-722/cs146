@@ -7,7 +7,7 @@ def anagram(t, s):
         else:
             t_hm[character] = 1
     for character in s:
-        if character in t_hm:
+        if character in s_hm:
             s_hm[character] += 1
         else:
             s_hm[character] = 1
