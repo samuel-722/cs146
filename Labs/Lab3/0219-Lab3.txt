@@ -1,0 +1,20 @@
+Problem 1: Which function is asymptotically greater
+10000000000n2 vs n^3         | n^3
+n^2 log(n) vs n(log(n))^10   | n^2 log(n)
+n^logn vs 2 ^ sqrt(n)        | n^logn
+2^n vs 2^2n                  | 2^2n
+
+-----------------------
+
+Problem 2: Now let's examine some [pseudo]code and apply asymptotic notation to it.
+isPrime(n): 
+  for(i = 2, i*i <= n; i++) {
+    if(n % x == 0) {
+      return false
+    }
+  return true
+
+What is the 
+Best Case:
+Worst Case:
+Average Case:
