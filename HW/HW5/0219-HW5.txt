@@ -1,0 +1,16 @@
+Problem 1:
+
+
+Problem 2:
+
+yetAnotherFunc(n):          
+  if n > 1:                 
+    for(i=0;i<10n;i++)      
+      doSomething;          
+    yetAnotherFunc(n/2);   
+    yetAnotherFunc(n/2);    
+
+T(n) = t(n/2) + t(n/2) + 10n = 2T(n/2) + 10n
+
+T(n) = 10nlog2(n)
+Time complexity of O(nlogn)

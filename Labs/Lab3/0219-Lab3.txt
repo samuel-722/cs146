@@ -1,8 +1,10 @@
-Problem 1: Which function is asymptotically greater
-10000000000n2 vs n^3         | n^3
-n^2 log(n) vs n(log(n))^10   | n^2 log(n)
-n^logn vs 2 ^ sqrt(n)        | n^logn
-2^n vs 2^2n                  | 2^2n
+Problem 1:
+
+10000000000n^2 vs n^3           | n^3, because it approaches infinity first
+n^2 log(n) vs n(log(n))^10      | n^2 logn, because it grows faster than the other option
+n^logn vs 2^sqrt(n)             | n^logn, because log(n) grows faster than sqrt(n)
+2^n vs 2^2n                     | 2^2n, because it approaches infinity first
+
 
 -----------------------
 
@@ -15,6 +17,6 @@ isPrime(n):
   return true
 
 What is the 
-Best Case:
-Worst Case:
-Average Case:
+Best Case: O(1) when the number of iterations is minimal
+Worst Case: O(sqrt(n)) when n is a very large prime number where the loop will iterate an absurd amount of times
+Average Case: O(sqrt(n)) when n is a medium sized prime number where the loop will iterate an average number of times
