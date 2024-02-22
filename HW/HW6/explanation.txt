@@ -1,0 +1,5 @@
+The main objective of this hw was to find 3 numbers in a list that add up to 0
+
+The biggest challenge was the criteria of only using a list since lists are something I have used much less than hashmaps
+
+I tried to go through each number in the list, find numbers that add up to the negative of an initial chosen number, then basically attempt to skip through any duplicates before returning the result.
