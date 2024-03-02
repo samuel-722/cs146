@@ -1,0 +1,7 @@
+my approach:
+- sort list of time intervals by starting time
+- keep track of number of servers and end times jobs
+- iterate through the intervals and check if a server is free by comparing the start time of the job with end time of ongoing jobs
+- if a server is finished, remove its end time from the list
+- push the end time of current job into the lest
+- the final value is the minimum number of servers required
