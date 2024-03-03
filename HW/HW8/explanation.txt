@@ -1,0 +1,6 @@
+my approach:
+    - create a hashmap where key is letter and value is count
+    - iterate through hashmap and count
+    - add maximum number of pairs of letters to the length
+    - if the count is odd, increase length 1 to include one instance of that character in the palindrome
+    - return the length of the longest possible palindrome
