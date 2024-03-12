@@ -1,0 +1,7 @@
+The strategy I implemented was this:
+
+using recursion, I would find the lowest common ancestors this way:
+    - i check if p and q are smaller than the node checked, and if they are, I move to explore the left subtree
+    - if they are greater than the node checked, I would move to explore right subtree
+    
+    I continuously do this until one of the nodes is smaller and one is greater, and return that one since that means that is is the LCA
