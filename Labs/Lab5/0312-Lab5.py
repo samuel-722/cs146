@@ -5,12 +5,15 @@ class Node:
         self.right = None
 
 def isValidBST(self, root):
-        
+    if root is None:
+        return True
+    list = []
+    self.readTree(root, list)
+    return self.isInOrder(list)
 
-def search_binary(self, root, key):
-        
-    # left nodes only contain nodes less than right nodes
-    if root is None or root.value == key:
-        return root
-    if root.value > key:
-            search_binary(root.right, key)
+def readTree(self, root, list):
+    if root.left is not None:
+        self.readTree(root.left, list)
+    list.append(root.val)
+    if root.right is not None:
+        self.readTree(root.right, list)
