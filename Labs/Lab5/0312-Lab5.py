@@ -3,7 +3,6 @@ class Node:
         self.root = root
         self.left = None
         self.right = None
-
 def isValidBST(self, root):
     if root is None:
         return True
