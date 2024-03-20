@@ -1,0 +1,4 @@
+Using recursion, we swap left child and right child and then call the function swapping until we finally return the root.
+
+This solution works by going recurisively down the tree down each subtree.
+we swap leaves from the bottom until we reach the top where eventually the whole tree is swapped and thus inverted.

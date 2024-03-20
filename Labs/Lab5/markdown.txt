@@ -1,0 +1,5 @@
+the approach used going  through each node in the binary tree,
+keeping track of their values in a list.
+Then, it checks if these values are in ascending order.
+If they are, it means the tree is a valid binary search tree.
+If not, it means the tree is not a valid binary search tree.
