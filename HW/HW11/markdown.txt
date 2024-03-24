@@ -1,0 +1,2 @@
+starting from a specific pixel, we recursively change the neighbors of that pixel to the chosen color,
+unless the neighboring pixel is already the color chosen in which case we just move on. we continue this until all pixels are visited

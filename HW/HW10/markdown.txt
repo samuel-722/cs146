@@ -1,0 +1,5 @@
+Explanation:
+
+starting at the root, keep track of nodes at each level with a queue,
+add roots to the queue and then repeat the following process until all the nodes are visited:
+take out a node for processing, taking note of its value and then adding its children in the queue
