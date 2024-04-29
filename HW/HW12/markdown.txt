@@ -1,0 +1,3 @@
+we need to find minimum total cost to supply water to all houses in a village. we can either build a well or lay pipes in each houses
+This is a MST problem, connect all houses with minimum cost
+houses are vertex and pipes are edges. 0 is the source

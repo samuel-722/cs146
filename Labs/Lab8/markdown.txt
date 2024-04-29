@@ -1,0 +1,20 @@
+You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
+Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
+You may assume that you have an infinite number of each kind of coin.
+
+What we know:
+- infinite number of each type of coin
+- return the minimum amount of each coin to get the target change
+
+What we have to do:
+- find each possible answer and store it
+- make a hashmap of amount of coins used and value
+
+|||||||
+example: amount is 12. we need to store {[10:1, 1:2] , [5:2, 1:2], [1:12], ...}
+then we iterate through this and find the answer with the lowest totals which in our case would be [10:1, 1:2]
+--------
+
+Thought process:
+we can use recursion(?) so that if the amount of coins goes over a previous answer, to just skip it.
+so in our example right away the other two options would be skipped

@@ -16,5 +16,5 @@ def canFinish(numCourses, prerequisites):
         visited[course] = 2  # Mark as visited
 
 numCourses = 2
-prerequisites = [[1,0]]
+prerequisites = [[1,0]] 
 print(canFinish(numCourses, prerequisites)) #true

@@ -8,5 +8,6 @@ def minCostToSupplyWater(self, n: int, wells: List[int], pipes: List[List[int]])
 
     #sort pipes based on cost in non-decreasing order
     all_pipes.sort(key = lambda x: x[2])
+
     #
 

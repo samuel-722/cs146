@@ -1,0 +1,6 @@
+1) make a graph data structure to represent courses and their prereqs
+2) for each course prereqs pair, add the prereq to the list of prereq for the matching course
+3) create another array to track visited courses
+4) DFS to traverse the graph
+6) call DFS for each unvisited course, return true of no cycles detected
+7) return true if all courses can be completed without violating prereqs

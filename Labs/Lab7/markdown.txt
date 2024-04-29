@@ -1,0 +1,6 @@
+Initialize distance matrix with maximum distances
+Initialize distance between a city and itself as 0
+Fill in distance matrix based on given edges
+Floyd-Warshall algorithm to find shortest distances
+Initialize variables to store result
+Go through and update result if current city has fewer reachable cities or equal with greater number
